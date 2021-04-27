@@ -1,0 +1,175 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/bolo.png");
+    background-size: 100%;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.barra{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: darkred;
+    opacity: 500%;
+}
+
+.bolo{
+    position: absolute;
+    margin-top: -200px;
+    margin-right: 20px;
+}
+
+h1{
+    color: darkred;
+}
+
+.title{
+    align-self: center;
+    justify-self: flex-start;
+    font-size: 45px;
+    color: #b2b2ff;
+    margin-left: 10px;
+}
+
+.direita{
+    width: 80%;
+    display: flex;
+}
+
+.esquerda{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 20%;
+    justify-self: flex-end;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.botao_iniciar{
+    color: darkred;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.botao_salvar{
+    color: darkgreen;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    margin: 5px;
+}
+
+.botao_voltar{
+    color: darkred;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.botao_iniciar:hover{
+    color: #b2b2ff;
+    background-color: darkred;
+}
+
+.botao_salvar:hover{
+    color: #b2b2ff;
+    background-color: darkgreen;
+    text-decoration: none;
+}
+
+.botao_voltar:hover{
+    color: #b2b2ff;
+    background-color: darkred;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    opacity: 50%;
+}
+
+.principal{
+    height: 150%;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.flex{
+    display: flex;
+}
+
+.input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 80%;
+    border-style: solid;
+    border-width: thin;
+}
+
+input:hover{
+    opacity: 160%;
+}
+
+.formulario{
+    width: 25%;
+    border-color: #7070ff;
+    border-style: solid;
+    border-width: thin;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #b2b2ff;
+    opacity: 50%;
+}
+
+.p{
+    margin-bottom: -4px;
+}
+
+.alignment{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.lista{
+    width: 70%;
+    border-color: #7070ff;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    background-color: #b2b2ff;
+    opacity: 50%;
+
+}
+
+.a{
+    text-decoration: none;
+}
